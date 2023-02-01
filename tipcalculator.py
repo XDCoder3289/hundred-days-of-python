@@ -19,3 +19,5 @@ if tip == 0:
 else:
     extra_tip = round((((tip * bill) / 100) + bill) / people, 2)
     print("Each person should pay: " + str(extra_tip))
+
+# Typer conversions were necessary for this code to work
