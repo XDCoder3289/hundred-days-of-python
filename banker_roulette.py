@@ -7,4 +7,3 @@ names = names.split(',')
 num = random.randint(0, len(names))
 
 print(names[num])
-
