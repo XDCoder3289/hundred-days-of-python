@@ -15,10 +15,6 @@ def auction_calc():
             any_other = input("Is there anyone else who wants to bid? (y) (n): ")
     
     won = max(auction_dict, key=auction_dict.get)
-    
-    
     print(f" {won} has won with the highest bid of: ${auction_dict[won]}")
-    
-
     
 auction_calc()
